@@ -1,3 +1,51 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  padding-top: 0px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", sans-serif;
+  color: #999;
+  background-color: #999;
+}
+
+.banner {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.navbar {
+  background-color: darkred;
+}
+
+.navbar-nav>li>a {
+  color: #999;
+  font-size: 16px;
+}
+
+.well {
+  background-color: darkred;
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.knight-pride {
+  background-image: url('../images/frontpage.jpg');
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+}
+dd {
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.active {
+  background-color: white;
+  color: darkred;
 }
